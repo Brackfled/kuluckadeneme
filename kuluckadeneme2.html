@@ -13,26 +13,48 @@
                width:100px;
                height:120px;}
 
-		a {text-decoration:none;
+		ul.yanmenü > li > a {text-decoration:none;
 		   color:white;		
 		}
+		ul.yanmenü li a:hover {transition-duration:0.5s;}
 		ul.yanmenü {
 			background-color:#424242;
-			width:150px;
+			width:170px;
             height:635px;
-            text-align:center;
+            text-align:left;
 		}
-		li {
-			border-top:0.5px dotted #40A28B;
+		ul.yanmenü > li {
+			border-top:0.5px solid black;
 			padding:10px;
 		}
+		ul.yanmenü ul li a {
+			display:block;
+			text-decoration:none;
+			color:white;
+		}
+		ul.yanmenü li ul {
+			display:none;
+			position:relative;
+			height:75px;
+			width:170px;
+		}
+		ul.yanmenü li:hover ul {
+			display:block;
+		}
+		ul.yanmenü li ul li {padding:10px;}
+
 	</style>
 </head>
 <body>
 	<ul class="yanmenü">
 		<li><a href=""><img class="logo" src="resimler/ham.png"></a></li>
 		<li><a href="">Ana Sayfa</a></li>
-		<li><a href="">Bilgi</a></li>
+		<li><a href="">Bilgi</a>
+			<ul>
+				<li><a href="">Hayvanlar Hakkında</a></li>
+				<li><a href="">Kümesler Hakkında</a></li>
+			</ul>
+		</li>
 		<li><a href="">Satış</a></li>
 		<li><a href="">Hakkımızda</a></li>
 		<li><a href="">İletişim</a></li>
