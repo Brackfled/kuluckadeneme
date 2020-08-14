@@ -3,12 +3,22 @@
 <head>
 	<title>HAM Kuluçka</title>
 <style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 		* {
+			font-family: 'PT Serif', serif;
 			padding:0;
 			margin:0;
 			border:0;
 			list-style:none;
 		}
+		.chapage {
+			   height:635px;
+			   width:1186px;
+			   position:absolute;
+			   right:0;
+			   top:0;
+		}
+
 		img.logo {
                width:200px;
                height:120px;}
@@ -58,15 +68,17 @@
 		li.ikincimenü  ul  li  a {
 			color:white;
 		}
+
 </style>
 </head>
 <body>
+	<div class="chapage"><iframe name="chapagein" src="anasayfa.html"></iframe></div>
 	<ul class="yanmenü">
 		<li><a href=""><img class="logo" src="resimler/ham1.png"></a></li>
-		<li class="purptrans"><a href="">Ana Sayfa</a></li>
+		<li class="purptrans"><a href="anasayfa.html" target="chapagein">Ana Sayfa</a></li>
 		<li class="purptrans"><a href="">Bilgi</a>
 			<ul>
-				<li><a href="">Hayvanlar Hakkında</a></li>
+				<li><a href="hayvanbilgi.html" target="chapagein">Hayvanlar Hakkında</a></li>
 				<li><a href="">Kümesler Hakkında</a></li>
 			</ul>
 		</li>
