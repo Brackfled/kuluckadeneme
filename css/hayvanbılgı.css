@@ -1,0 +1,21 @@
+div.sultanbılgı {
+	position:absolute;
+	top:10%;
+	left:20%;
+}
+div.sultanbılgı ul {
+	text-align:center;
+	width:400px;
+}
+div.sultanbılgı ul li {
+	padding:5px;
+
+}
+div.sultanbılgı ul li img {
+	width:400px;
+	height:200px;
+}
+
+	<div class="baslık"> Sultan Irkı</div>
+	<div class="sultan"><img src="sultananac.jpeg"></div>
+	<div class=""> Buraya Metin Gelecek !!!</div>
