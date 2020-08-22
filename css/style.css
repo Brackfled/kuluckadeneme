@@ -15,6 +15,7 @@
 		   					 color:white;		
 		}
 		ul.yanmenü {
+			position:fixed;
 			background-color:#424242;
 			width:180px;
             height:635px;
@@ -26,6 +27,7 @@
 		}
 		ul.yanmenü li.purptrans:hover {
 			background-color:#212121;
+			
 		}
 		ul.yanmenü ul li a {
 			display:block;
@@ -37,6 +39,7 @@
 			position:relative;
 			height:75px;
 			width:170px;
+
 		}
 		ul.yanmenü li:hover ul {
 			display:block;

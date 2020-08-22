@@ -1,21 +1,99 @@
-div.sultanbılgı {
+div.sultanbılgı div.sultanbaslık {
+	position:absolute;
+	width:400px;
+	left:20%;
+	top:10%;
+	background-color:#424242;
+	color:white;
+	text-align:center;
+	
+}
+div.sultanbılgı div.sultan img {
+	width:400px;
+	height:300px;
+}
+div.sultanbılgı div.sultan {
+	position:absolute;
+	top:15%;
+	left:20%
+}
+div.sultanbılgı div.sultanmetın {
+	width:400px;
+	position:absolute;
+	top:65%;
+	left:20%;
+	border:3px solid #424242;
+}
+.fızanbılgı .fızanbaslık {
+	background-color:#424242;
+	color:white;
+	width:400px;
 	position:absolute;
 	top:10%;
+	left:65%;
+	text-align:center;
+}
+.fızanbılgı .fızan img {
+	width:400px;
+	height:300px;
+}
+.fızanbılgı .fızan {
+	position:absolute;
+	top:15%;
+	left:65%;
+}
+.fızanbılgı .fızanmetın {
+	width:400px;
+	position:absolute;
+	top:65%;
+	left:65%;
+}
+.cochınbılgı .cochınbaslık{
+	width:400px;
+	background-color:#424242;
+	color:white;
+	position:absolute;
+	top:98%;
+	left:20%;
+	text-align:center;
+}
+.cochınbılgı .cochın img{
+	width:400px;
+	height:300px;
+}
+.cochınbılgı .cochın {
+	position:absolute;
+	top:103%;
 	left:20%;
 }
-div.sultanbılgı ul {
+.cochınbılgı .cochınmetın {
+	width:400px;
+	position:absolute;
+	top:153%;
+	left:20%;
+}
+.susexbılgı .susexbaslık {
+	width:400px;
+	background-color:#424242;
+	color:white;
 	text-align:center;
+	position:absolute;
+	top:98%;
+	left:65%;
+}
+.susexbılgı .susex img {
 	width:400px;
+	height:300px;
 }
-div.sultanbılgı ul li {
-	padding:5px;
-
-}
-div.sultanbılgı ul li img {
+.susexbılgı .susex {
 	width:400px;
-	height:200px;
+	position:absolute;
+	top:103%;
+	left:65%;
 }
-
-	<div class="baslık"> Sultan Irkı</div>
-	<div class="sultan"><img src="sultananac.jpeg"></div>
-	<div class=""> Buraya Metin Gelecek !!!</div>
+.susexbılgı .susexmetın {
+	width:400px;
+	position:absolute;
+	top:153%;
+	left:65%;
+}
