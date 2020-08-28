@@ -1,4 +1,6 @@
 div.sultanbılgı div.sultanbaslık {
+	border-radius:1rem 1rem 0rem 0rem;
+	border-color:#424242;
 	position:absolute;
 	width:400px;
 	left:20%;
@@ -11,18 +13,20 @@ div.sultanbılgı div.sultanbaslık {
 div.sultanbılgı div.sultan img {
 	width:400px;
 	height:300px;
+	box-shadow:2px 2px 2px black, -2px -2px 2px black;
 }
 div.sultanbılgı div.sultan {
 	position:absolute;
 	top:15%;
-	left:20%
+	left:20%;
 }
 div.sultanbılgı div.sultanmetın {
 	width:400px;
 	position:absolute;
 	top:65%;
 	left:20%;
-	border:3px solid #424242;
+	border:2px solid #424242;
+	border-radius:0rem 0rem 1rem 1rem;
 }
 .fızanbılgı .fızanbaslık {
 	background-color:#424242;
